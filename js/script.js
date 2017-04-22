@@ -6,11 +6,11 @@ var a = prompt("Wpisz długość podstawy trójąta", 10),
 
 if (a > 0 && h > 0) {
 
-   triangleArea = a * h / 2
-   console.log('Pole trójkąta o podstawie a= ' + a + ' i wysokości h= ' + h + ' wynosi: ' + triangleArea);
+   triangleArea = a * h / 2;
+   console.log("Pole trójkąta o podstawie a= " + a + " i wysokości h= " + h + " wynosi: " + triangleArea);
    
-}
-
-else {
-   alert ('Wpisz poprawną wartość');
+} else { 
+    
+   alert ("Wpisz poprawną wartość!");
+    
 }
